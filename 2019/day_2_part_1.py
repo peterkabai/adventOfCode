@@ -1,6 +1,6 @@
 # https://adventofcode.com/2019/day/2
 
-with open('inputs/day_2_input.txt', 'r') as f: code = f.read()
+with open('inputs/day_2.txt', 'r') as f: code = f.read()
 codes = [int(s) for s in code.split(',')]
 
 codes[1] = 12

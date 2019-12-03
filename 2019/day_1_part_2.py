@@ -3,7 +3,7 @@
 import math
 
 total_fuel = 0
-for line in open('inputs/day_1_input.txt'):
+for line in open('inputs/day_1.txt'):
     mass = int(line.rstrip('\n'))
     while mass > 0:
         mass = math.floor(mass/3)-2

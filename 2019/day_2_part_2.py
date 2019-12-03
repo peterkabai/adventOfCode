@@ -2,7 +2,7 @@
 
 import copy
 
-with open('inputs/day_2_input.txt', 'r') as f: code = f.read()
+with open('inputs/day_2.txt', 'r') as f: code = f.read()
 code_initial = [int(s) for s in code.split(',')]
 
 for i in range(0,99):
